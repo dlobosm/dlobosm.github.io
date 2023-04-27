@@ -1,35 +1,45 @@
 /*fuente del cuerpo de la pagina*/
 body {
     font-family: "Raleway", "Open Sans";
-    color:white;
-    background-color: black;
-}
-   
-/* color de fondo de la seccion quienes somos*/
-.card{
+    color: white;
     background-color: black;
 }
 
-.card-text{color: white;
+/* color de fondo de la seccion quienes somos*/
+.card {
+    background-color: black;
+}
+
+.card-text {
+    color: white;
 }
 
 
 /*caracteristicas de los fa-iconos*/
-.fa-iconos{
+.fa-iconos {
     font-size: 2em;
-  color: #fff;
-  text-align: center;
-  background-color:turquoise;
+    color: #fff;
+    text-align: center;
+    background-color: turquoise;
 }
+
 /*alineacion sección destacados*/
-.card-body02{
-text-align: left;
-background-color: turquoise;
+.card-body02 {
+    text-align: left;
+    background-color: turquoise;
 
 }
-.card-img{
-height: 150px
 
+.card-img {
+    height: 150px
+}
+
+
+/*estilo del boton contacto*/
+.btn-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg)
 }
 
 
