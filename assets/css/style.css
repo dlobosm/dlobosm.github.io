@@ -1,5 +1,35 @@
+/*fuente del cuerpo de la pagina*/
+body {
+    font-family: "Raleway", "Open Sans";
+    color:white;
+    background-color: black;
+}
+   
+/* color de fondo de la seccion quienes somos*/
+.card{
+    background-color: black;
+}
+
+.card-text{color: white;
+}
 
 
-  
-  
- 
+/*caracteristicas de los fa-iconos*/
+.fa-iconos{
+    font-size: 2em;
+  color: #fff;
+  text-align: center;
+  background-color:turquoise;
+}
+/*alineacion sección destacados*/
+.card-body02{
+text-align: left;
+background-color: turquoise;
+
+}
+.card-img{
+height: 150px
+
+}
+
+
